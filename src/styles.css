@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+.selected{
+    border: solid 3px red !important;
+}
+
+.category, .item{
+    cursor: pointer;
+}

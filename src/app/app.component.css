@@ -1,0 +1,29 @@
+.container{
+    width: 1050px;
+    height: 600px;
+    display: flex;
+}
+
+.left-panel,.right-panel{
+    float: left;
+}
+
+.left-panel{
+    width: 600px;
+    height: 600px;
+    border: solid 3px black;
+}
+
+.right-panel{
+    width: 450px;
+}
+
+.menu{
+    height: 100px;
+}
+
+.items{
+    height: 500px;
+    border-left: 2px solid white;
+    background-color: grey;
+}

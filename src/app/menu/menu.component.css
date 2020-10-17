@@ -1,0 +1,12 @@
+.category{
+    margin-left: 2px;
+    vertical-align: middle;
+    border: solid 3px white;
+}
+
+.container{
+    text-align: center;
+    padding-top: 20px;
+    vertical-align: middle;
+    height: 100%;
+}

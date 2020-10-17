@@ -1,0 +1,9 @@
+<div class="container">
+    <img *ngFor="let cate of categories" 
+        src="{{cate.url}}"
+        width="75" 
+        height="75" 
+        class="category" 
+        (click)="onCategoryClick(cate.id)"
+        [ngClass]="{'selected': selectedCategoryId === cate.id}">
+</div>

@@ -117,8 +117,13 @@
               "devServerTarget": "AmongUs-Angular:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "AmongUs-Angular"
 }
